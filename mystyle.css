@@ -1,0 +1,25 @@
+/* styles.css */
+@import "/syles/headerstyle.css";
+@import "/syles/postsstyle.css";
+@import "/syles/footerstyle.css";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.buttons {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
