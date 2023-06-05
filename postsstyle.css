@@ -10,7 +10,7 @@
   }
   
   .card img {
-    height: 720px;
+  
     width: 100%;
   }
   
@@ -28,6 +28,33 @@
   }
   
   .post-description {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
+  .flexbox-panel img {
+  
+    width: 50%;
+  }
+  .flexbox-content {
+    padding: 5px;
+  }
+  .flexbox-title {
+    margin-top: 0;
+  }
+  
+  .flexbox-meta {
+    color: #666;
+    margin-top: 1px;
+  }
+  
+  .flexbox-description {
+    margin-bottom: 5px;
+  }
+  .flexbox-containar{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+
+  
+  }
