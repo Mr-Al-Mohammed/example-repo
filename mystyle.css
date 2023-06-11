@@ -42,3 +42,11 @@ table{
 margin-left: 50px;
 margin-bottom: 200px;
 }
+.author-img{
+  width: 30px;
+}
+.bio-box{
+  margin-left: 20px;
+  width: 320px;
+background-color: #333
+}
