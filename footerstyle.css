@@ -11,6 +11,12 @@
   }
   
   .social-icon img {
-    width: 30px;
-    height: 15px;
+
+    width: 60px;
+    height: 30px;
+  }
+  .social-sharing{
+    display: flex;
+    justify-content: center;
+
   }

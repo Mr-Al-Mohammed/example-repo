@@ -7,6 +7,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -17,9 +18,46 @@ body {
 
 .button {
   display: inline-block;
+  display: flex;
+  flex-direction: column;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+}
+/* .Animation-img{
+  padding: 2%;
+  margin: 2%;
+
+  width: 500px;
+
+  width: 150px;
+  height: 200px;
+  
+  position: relative;
+  animation: myfirst 5s ;
+  animation-direction: alternate;
+} */
+/* @keyframes myfirst {
+  0%   {left: 0px; top: 0px;}
+  25%  {left: 600px; top: 0px;}
+  50%  {left: 100px; top: 200px;}
+  75%  {left: 0px; top: 200px;}
+  100% {left: 0px; top: 0px;}
+} */
+.Animation-panel h1{
+  color: darkslategray;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 1%;
+font-size: 10em;
+}
+
+.leftimg img{
+  margin-top: 270px;
+  float: left;
+  width: 270px;
+  height: 1880px;
+  display: flex;
 }
