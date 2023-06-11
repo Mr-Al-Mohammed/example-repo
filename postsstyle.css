@@ -16,12 +16,20 @@
   
   .card img {
   
-    width: 720px;
+    width: 32%;
+    height: 420px;
+  }
+  .card img:hover {
+  
+    width: 33%;
     height: 420px;
   }
   
   .card-content {
     padding: 20px;
+  }
+  .card-content:hover {
+    background-color: aliceblue;
   }
   
   .post-title {
@@ -30,7 +38,7 @@
   
   .post-meta {
     color: #666;
-    margin-top: 5px;
+    margin-top: 0px;
   }
   
   .post-description {
@@ -44,10 +52,12 @@
   
   .flexbox-panel img {
   
-    width: 100%;
+    width: 460px;
+    height: 460px;
   }
   .flexbox-panel img:hover{
-    width: 110%;
+    width: 520px;
+    height: 520px;
   }
   .flexbox-content {
     padding: 5px;
@@ -65,8 +75,9 @@
     margin-bottom: 5px;
   }
   .flexbox-containar{
-    margin: 16%;
-    padding: 10%;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 3px;
     display: flex;
     flex-direction: column;
 
