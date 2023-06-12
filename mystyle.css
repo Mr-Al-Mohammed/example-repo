@@ -33,23 +33,47 @@ viewport-fit: auto;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 2%;
-font-size: 10em;
+font-size: 8em;
 background-color: rgb(243, 240, 235);
 }
-
+/* this to make the page fit to mobiles secreen */
 @media only screen and (max-width: 600px) {
   .home-title {
     color: darkslategray;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 2%;
-  font-size: 2em;
+    margin-right: 10px;
+  font-size: 1.5em;
   background-color: rgb(243, 240, 235);
     
   }
+  table{
+    margin-left: 10px;
+  }
   .flexbox-panel img{
-    width: 75px;
-    height: 85px;
+    width: 95px;
+    height: 100px;
+
+  }
+  .bio-box{
+    margin-left: 10px;
+    width: 200px;
+  background-color: #333
+  }
+
+  #bio-img {
+    padding-left: 10px; 
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+  }
+
+  .bio-para{
+ width: 200px;
+ font-size: 10px;
+ font-weight: lighter;
   }
 
 }
@@ -61,12 +85,6 @@ margin-left: 50px;
 margin-bottom: 20px;
 
 }
-
-
-
-
-
-
 
 .bio-box{
   margin-left: 20px;
