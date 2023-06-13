@@ -1,7 +1,7 @@
 /* styles.css */
-@import "headerstyle.css";
-@import "postsstyle.css";
-@import "footerstyle.css";
+@import "/css/headerstyle.css";
+@import "/css/postsstyle.css";
+@import "/css/footerstyle.css";
 
 body {
   font-family: Arial, sans-serif;
