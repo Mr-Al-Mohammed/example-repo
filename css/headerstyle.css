@@ -1,8 +1,9 @@
-header {
+.header-nav {
     background-color: #333;
     width: auto;
     color: #fff;
     padding: 20px;
+    font-weight: bold;
 
   }
   
